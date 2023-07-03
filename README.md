@@ -1,20 +1,68 @@
 # SpamTweetsClassification
-This is the code used in the article entitled "Arabic spam tweets classification using deep learning" (https://link.springer.com/article/10.1007/s00521-023-08614-w). The dataset is here: https://data.mendeley.com/datasets/86x733xkb8/1
+
 # Project Title
+Spam Tweets Classifier / A Machine Learning Template for Binary Classification of Arabic Spam Tweets
 
-A brief description of your project.
+# Project Overview
 
-## Installation
+The project title is "Spam Tweets Classifier / A Machine Learning Template for Binary Classification of Arabic Spam Tweets". This is the code used in the article entitled "Arabic spam tweets classification using deep learning" (https://link.springer.com/article/10.1007/s00521-023-08614-w). The dataset is here: https://data.mendeley.com/datasets/86x733xkb8/1
+## Project Installation and Setup
+This guide will walk you through the installation and setup process for the project, which focuses on binary classification of spam tweets from an Arabic dataset using classical machine learning algorithms and deep learning approaches.
 
-Instructions on how to install and set up the project. Include any dependencies or prerequisites.
+__Prerequisites__
+Before getting started, ensure that you have the following dependencies installed:  
+
+Python 3.x  
+pip package manager  
+
+__Dependencies__
+The project requires the following libraries to be installed:  
+
+Keras  
+NumPy  
+NLTK  
+tqdm  
+scikit-learn  
+TensorFlow  
+
+_To install the dependencies, run the following command:_  
+pip install keras numpy nltk tqdm sklearn tensorflow  
+
+Additionally, you will need to download the Arabic word embeddings file for FastText.   
+Please follow these steps:  
+
+Download the word embeddings file by clicking [here](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.ar.zip).  
+Extract the contents of the downloaded zip file.  
+
+__Installation Steps__  
+Follow the steps below to install and set up the project:  
+
+Clone the repository from GitHub:  
+_git clone https://github.com/your-username/your-project.git_  
+  
+Navigate to the project directory:  
+_cd your-project_  
+  
+Create a virtual environment (optional but recommended):  
+_python -m venv env_  
+  
+Activate the virtual environment:  
+For Windows:  
+_env\Scripts\activate_  
+  
+For macOS and Linux:  
+_source env/bin/activate_  
+
+Move the downloaded FastText word embeddings file (wiki.ar.vec) to the project directory.
 
 ## Usage
 
-Explain how to use the project. Provide examples or code snippets to demonstrate its functionality. You can include different sections or components if applicable.
+Run the main script to start the binary classification of spam tweets:
+_python main.py_
 
 ## Configuration
 
-If your project requires configuration settings, API keys, or environment variables, outline the necessary steps to set them up.
+No specific configuration is required for this project.
 
 ## Contributing
 
@@ -29,8 +77,6 @@ Please adhere to our code style conventions and ensure your code is well-documen
 ## License
 
 This project is licensed under the Apache License 2.0. For more details, see the [License](https://github.com/sanaakaddoura1/SpamTweetsClassification/blob/main/LICENSE) file.
-
-
 
 ## Support and Contact
 
