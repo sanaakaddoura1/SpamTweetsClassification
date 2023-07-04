@@ -30,7 +30,6 @@ pip install keras numpy nltk tqdm sklearn tensorflow
 
 Additionally, you will need to download the Arabic word embeddings file for FastText.   
 Please follow these steps:  
-
 Download the word embeddings file by clicking [here](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.ar.zip).  
 Extract the contents of the downloaded zip file.  
 
