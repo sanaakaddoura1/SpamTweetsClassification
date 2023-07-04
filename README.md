@@ -22,6 +22,9 @@ NLTK
 tqdm  
 scikit-learn  
 TensorFlow  
+Seaborn  
+Matplotlib  
+Pandas  
 
 To install the dependencies, run the following command:  
 _pip install keras numpy nltk tqdm sklearn tensorflow_  
@@ -29,7 +32,12 @@ _pip install keras numpy nltk tqdm sklearn tensorflow_
 Additionally, you will need to download the Arabic word embeddings file for FastText.   
 Please follow these steps:  
 Download the word embeddings file by clicking [here](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.ar.zip).  
-Extract the contents of the downloaded zip file.  
+Extract the contents of the downloaded zip file.    
+
+Additionally, you will need to download the Arabic vector embeddings file for GloVe.   
+Please follow these steps:  
+Download the word embeddings file by clicking [here](https://archive.org/download/arabic_corpus).    
+Extract the contents of the downloaded zip file vectors.txt.xz  
 
 __Installation Steps__  
 Follow the steps below to install and set up the project:  
