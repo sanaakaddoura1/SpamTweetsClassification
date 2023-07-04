@@ -25,8 +25,8 @@ tqdm
 scikit-learn  
 TensorFlow  
 
-_To install the dependencies, run the following command:_  
-pip install keras numpy nltk tqdm sklearn tensorflow  
+To install the dependencies, run the following command:  
+_pip install keras numpy nltk tqdm sklearn tensorflow_  
 
 Additionally, you will need to download the Arabic word embeddings file for FastText.   
 Please follow these steps:  
@@ -77,7 +77,7 @@ This project is licensed under the Apache License 2.0. For more details, see the
 
 ## Support and Contact
 
-If you have any questions, issues, or suggestions, please feel free to open an issue at (https://github.com/sanaakaddoura1/SpamTweetsClassification/issues) or contact us at sanaa.kaddoura@zu.ac.ae.
+If you have any questions, issues, or suggestions, please feel free to open an issue at (https://github.com/sanaakaddoura1/SpamTweetsClassification/issues) or contact us at sanaa.kaddoura@zu.ac.ae  
 
 ## Acknowledgements
 
