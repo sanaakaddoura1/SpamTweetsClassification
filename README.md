@@ -9,13 +9,13 @@ The project title is "Spam Tweets Classifier / A Machine Learning Template for B
 ## Project Installation and Setup
 This guide will walk you through the installation and setup process for the project, which focuses on binary classification of spam tweets from an Arabic dataset using classical machine learning algorithms and deep learning approaches.
 
-__Prerequisites__
+__Prerequisites__  
 Before getting started, ensure that you have the following dependencies installed:  
 
 Python 3.x  
 pip package manager  
 
-__Dependencies__
+__Dependencies__  
 The project requires the following libraries to be installed:  
 
 Keras  
