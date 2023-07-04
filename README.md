@@ -1,5 +1,3 @@
-# SpamTweetsClassification
-
 # Project Title
 Spam Tweets Classifier / A Machine Learning Template for Binary Classification of Arabic Spam Tweets
 
