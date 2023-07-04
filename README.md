@@ -47,11 +47,9 @@ Create a virtual environment (optional but recommended):
 _python -m venv env_  
   
 Activate the virtual environment:  
-For Windows:  
-_env\Scripts\activate_  
+For Windows: _env\Scripts\activate_  
   
-For macOS and Linux:  
-_source env/bin/activate_  
+For macOS and Linux: _source env/bin/activate_  
 
 Move the downloaded FastText word embeddings file (wiki.ar.vec) to the project directory.
 
